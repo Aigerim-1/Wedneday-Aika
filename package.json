@@ -1,0 +1,19 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx cypress run",
+    "smoke": "npx cypress run --spec cypress/e2e/methods/check.js --headed --browser chrome",
+    "regrassion_dashboard": "npx cypress run --record --key 6d101ee5-f971-41fa-8f91-1720b3583a57",
+    "smoke_dashboard": "npx cypress run --spec cypress/e2e/methods/ckeck.js --record --key  6d101ee5-f971-41fa-8f91-1720b3583a57"
+  
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "mochawesome": "^7.1.3"
+  }
+}
